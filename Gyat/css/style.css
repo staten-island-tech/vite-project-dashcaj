@@ -1,0 +1,25 @@
+html, * {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+:root{
+  --primarylight: #fffaf3;  
+  --secondarylight: #005777;
+  --fontlight: #585c62;
+
+
+  --primarydark: #323644;
+  --secondarydark: #718aa3;
+  --fontdark: #e1e2ea;
+}
+
+
+body {
+  background-color: var(--primarydark);
+  color: var(--fontdark);
+  font-size: 7rem;
+  text-align: center;
+}
