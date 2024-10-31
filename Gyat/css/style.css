@@ -6,20 +6,21 @@ html, * {
 }
 
 :root{
-  --primarylight: #fffaf3;  
-  --secondarylight: #005777;
-  --fontlight: #585c62;
+  --primarylight: #fffad3;  
+  --secondarylight: #c44437;
+  --fontlight: #720605;
 
 
-  --primarydark: #323644;
-  --secondarydark: #718aa3;
-  --fontdark: #e1e2ea;
+  --primarydark: #1d2b33;
+  --secondarydark: #4e7176;
+  --fontdark: #fcf9fc;
 }
 
 
 body {
-  background-color: var(--primarydark);
-  color: var(--fontdark);
+  background-color: var(--primarylight);
+  color: var(--fontlight);
   font-size: 7rem;
   text-align: center;
+  font-family: "Electrolize", sans-serif;
 }
