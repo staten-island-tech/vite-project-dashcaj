@@ -1,6 +1,6 @@
 /* versatile, control, power, aerial, agile, boxy */
 
-const rocketLeagueCars = [
+const Cars = [
     {
         name: "Octane",
         description: "A balanced car that excels in all aspects of gameplay.",
@@ -106,9 +106,13 @@ const rocketLeagueCars = [
         description: "The car representing the developers, featuring a distinct design.",
         rarity: "Limited"
     }
-];
+]
 
 
+
+
+
+export { Cars };
 
 
 

@@ -45,4 +45,26 @@ h1{
 }
 
 
+#container{
+    font-family: "Quicksand", sans-serif;
+    font-size: 10rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.card{
+    border: 8px solid rgb(2, 4, 105);
+    background-color: rgb(50, 97, 224);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 33rem;
+    height: 40rem;
+    overflow: hidden;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 5px  rgb(1, 13, 53);
+
+}
