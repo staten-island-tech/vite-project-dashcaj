@@ -3,6 +3,7 @@
 const Cars = [
     {
         name: "Octane",
+        imgurl: URL(pics/octane.jpg),
         description: "A balanced car that excels in all aspects of gameplay.",
         rarity: "Rare"
     },
@@ -95,11 +96,6 @@ const Cars = [
         name: "Aston Martin DB5",
         description: "Classic elegance combined with performance.",
         rarity: "Limited"
-    },
-    {
-        name: "Fennec (Special Edition)",
-        description: "Unique designs and decals for added flair.",
-        rarity: "Very Rare"
     },
     {
         name: "Psyonix",

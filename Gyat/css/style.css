@@ -3,23 +3,26 @@ html, * {
   padding: 0;
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: "Oxanium", sans-serif;
 }
 
 :root{
   --primarylight: #fffad3;  
   --secondarylight: #c44437;
+  --tertiarylight: #eeab14;
   --fontlight: #720605;
 
 
   --primarydark: #1d2b33;
   --secondarydark: #4e7176;
+  --tertiarydark: #22396b;
   --fontdark: #fcf9fc;
 }
 
 
 body {
   background-color: var(--primarylight);
-  font-family: "Exo 2", sans-serif;
+
 }
 
 
@@ -34,20 +37,30 @@ h1{
 .form{
   text-align: center;
   font-size: 5rem;
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
 }
 
 
 .button{
-
+  border: 3px solid var(--fontlight);
+  border-radius: 5px;
+  color: rgb(60, 0, 0);
+  padding: 0.8rem;
+  background-color: var(--secondarylight);
   margin-top: 3rem;
 
 }
 
 
+h2{
+  font-size: 5rem;
+}
+
+
+
 #container{
-    font-family: "Quicksand", sans-serif;
-    font-size: 10rem;
+    font-size: 6rem;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -56,8 +69,9 @@ h1{
 }
 
 .card{
-    border: 8px solid rgb(2, 4, 105);
-    background-color: rgb(50, 97, 224);
+    border: 8px solid var(--secondarylight);
+    background-color: var(--tertiarylight);
+    color: var(--fontlight);
     border-radius: 8px;
     padding: 1rem;
     width: 33rem;

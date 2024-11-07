@@ -13,6 +13,7 @@ Cars.forEach((car) => {
     <div class="card">
         <h2>${car.name}</h2>
         <h3>${car.rarity}</h3>
+        <img src="${car.imgurl}" alt="${car.name}">
         <p>${car.description}</p>
 
     </div>
