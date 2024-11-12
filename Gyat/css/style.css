@@ -19,9 +19,22 @@ html, * {
   --fontdark: #fcf9fc;
 }
 
+.warm {
+  --prim: var(--primarylight);
+  --sec: var(--secondarylight)
+  --ter: var(--tertiarylight)
+  --font: var(--fontlight)
+}
+
+.cool {
+  --prim: var(--primarydark);
+  --sec: var(--secondarydark)
+  --ter: var(--tertiarydark)
+  --font: var(--fontdark)
+}
 
 body {
-  background-color: var(--primarylight);
+  background-color: var(--prim);
 
 }
 
@@ -31,7 +44,7 @@ h1{
   margin: 2rem;
   font-size: 5rem;
   text-align: center;
-  color: var(--fontlight);
+  color: var(--font);
 }
 
 .form{
@@ -43,11 +56,11 @@ h1{
 
 
 .button{
-  border: 3px solid var(--fontlight);
+  border: 3px solid var(--font);
   border-radius: 5px;
   color: rgb(60, 0, 0);
   padding: 0.8rem;
-  background-color: var(--secondarylight);
+  background-color: var(--sec);
   margin-top: 3rem;
 
 }
@@ -69,9 +82,9 @@ h2{
 }
 
 .card{
-    border: 8px solid var(--secondarylight);
-    background-color: var(--tertiarylight);
-    color: var(--fontlight);
+    border: 8px solid var(--sec);
+    background-color: var(--ter);
+    color: var(--font);
     border-radius: 8px;
     padding: 1rem;
     width: 33rem;

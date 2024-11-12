@@ -3,7 +3,6 @@
 const Cars = [
     {
         name: "Octane",
-        imgurl: URL(pics/octane.jpg),
         description: "A balanced car that excels in all aspects of gameplay.",
         rarity: "Rare"
     },
