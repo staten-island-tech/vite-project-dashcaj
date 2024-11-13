@@ -21,16 +21,16 @@ html, * {
 
 .warm {
   --prim: var(--primarylight);
-  --sec: var(--secondarylight)
-  --ter: var(--tertiarylight)
-  --font: var(--fontlight)
+  --sec: var(--secondarylight);
+  --ter: var(--tertiarylight);
+  --font: var(--fontlight);
 }
 
 .cool {
   --prim: var(--primarydark);
-  --sec: var(--secondarydark)
-  --ter: var(--tertiarydark)
-  --font: var(--fontdark)
+  --sec: var(--secondarydark);
+  --ter: var(--tertiarydark);
+  --font: var(--fontdark);
 }
 
 body {
@@ -41,7 +41,7 @@ body {
 
 
 h1{
-  margin: 2rem;
+  margin: 1.5rem;
   font-size: 5rem;
   text-align: center;
   color: var(--font);
@@ -95,3 +95,11 @@ h2{
     box-shadow: 5px 5px 5px  rgb(1, 13, 53);
 
 }
+
+.pictures1{
+  width: 75%;
+  height: 35%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
